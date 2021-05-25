@@ -1,0 +1,18 @@
+package main;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class assign {
+	public static void main(String[] args)
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Abdut\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://redbus.com");
+		WebElement loginIcon=driver.findElement(By.id("i-icon-profile"));
+		driver.quit();
+	}
+	
+}

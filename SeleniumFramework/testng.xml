@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="anno Testing">
+  <test name="annotation Testing">
+  <parameter name="Browser" value="Chrome"/>
+   <classes>
+      <class name="Group1.SeleniumFramework.Excel"/>
+     </classes>
+  </test> 
+</suite> 
